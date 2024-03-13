@@ -1,0 +1,24 @@
+{
+  "name": "fstbackend",
+  "version": "1.0.0",
+  "description": "full sistem javaScript Backend",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javaScript",
+    "Node",
+    "MongoDB"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
